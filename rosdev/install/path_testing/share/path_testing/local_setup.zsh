@@ -1,0 +1,1 @@
+/home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/build/path_testing/ament_cmake_environment_hooks/local_setup.zsh

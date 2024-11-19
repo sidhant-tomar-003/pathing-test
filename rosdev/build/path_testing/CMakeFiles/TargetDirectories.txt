@@ -1,0 +1,9 @@
+/home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/build/path_testing/CMakeFiles/uninstall.dir
+/home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/build/path_testing/CMakeFiles/path_testing_uninstall.dir
+/home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/build/path_testing/CMakeFiles/test.dir
+/home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/build/path_testing/CMakeFiles/edit_cache.dir
+/home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/build/path_testing/CMakeFiles/rebuild_cache.dir
+/home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/build/path_testing/CMakeFiles/list_install_components.dir
+/home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/build/path_testing/CMakeFiles/install.dir
+/home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/build/path_testing/CMakeFiles/install/local.dir
+/home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/build/path_testing/CMakeFiles/install/strip.dir

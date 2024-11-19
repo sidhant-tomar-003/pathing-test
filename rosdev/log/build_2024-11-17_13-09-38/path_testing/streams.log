@@ -1,0 +1,49 @@
+[0.034s] Invoking command in '/home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/build/path_testing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/src/path_testing -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/install/path_testing
+[0.147s] -- The C compiler identification is GNU 13.2.0
+[0.242s] -- The CXX compiler identification is GNU 13.2.0
+[0.273s] -- Detecting C compiler ABI info
+[0.454s] -- Detecting C compiler ABI info - done
+[0.468s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.469s] -- Detecting C compile features
+[0.469s] -- Detecting C compile features - done
+[0.488s] -- Detecting CXX compiler ABI info
+[0.687s] -- Detecting CXX compiler ABI info - done
+[0.700s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.701s] -- Detecting CXX compile features
+[0.701s] -- Detecting CXX compile features - done
+[0.711s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.936s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.040s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.140s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.305s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.305s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.307s] -- Added test 'lint_cmake' to check CMake code style
+[1.308s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.310s] -- Added test 'xmllint' to check XML markup files
+[1.314s] -- Configuring done (1.3s)
+[1.320s] -- Generating done (0.0s)
+[1.323s] -- Build files have been written to: /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/build/path_testing
+[1.332s] Invoked command in '/home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/build/path_testing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/src/path_testing -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/install/path_testing
+[1.340s] Invoking command in '/home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/build/path_testing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/build/path_testing -- -j4 -l4
+[1.422s] Invoked command in '/home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/build/path_testing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/build/path_testing -- -j4 -l4
+[1.492s] Invoking command in '/home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/build/path_testing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/build/path_testing
+[1.507s] -- Install configuration: ""
+[1.507s] -- Execute custom install script
+[1.509s] -- Symlinking: /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/install/path_testing/share/path_testing/launch/listener.launch.py
+[1.526s] -- Symlinking: /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/install/path_testing/share/path_testing/launch/talker.launch.py
+[1.549s] -- Symlinking: /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/install/path_testing/share/ament_index/resource_index/package_run_dependencies/path_testing
+[1.569s] -- Symlinking: /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/install/path_testing/share/ament_index/resource_index/parent_prefix_path/path_testing
+[1.587s] -- Symlinking: /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/install/path_testing/share/path_testing/environment/ament_prefix_path.sh
+[1.605s] -- Symlinking: /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/install/path_testing/share/path_testing/environment/ament_prefix_path.dsv
+[1.623s] -- Symlinking: /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/install/path_testing/share/path_testing/environment/path.sh
+[1.640s] -- Symlinking: /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/install/path_testing/share/path_testing/environment/path.dsv
+[1.659s] -- Symlinking: /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/install/path_testing/share/path_testing/local_setup.bash
+[1.680s] -- Symlinking: /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/install/path_testing/share/path_testing/local_setup.sh
+[1.699s] -- Symlinking: /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/install/path_testing/share/path_testing/local_setup.zsh
+[1.716s] -- Symlinking: /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/install/path_testing/share/path_testing/local_setup.dsv
+[1.734s] -- Symlinking: /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/install/path_testing/share/path_testing/package.dsv
+[1.756s] -- Symlinking: /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/install/path_testing/share/ament_index/resource_index/packages/path_testing
+[1.775s] -- Symlinking: /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/install/path_testing/share/path_testing/cmake/path_testingConfig.cmake
+[1.793s] -- Symlinking: /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/install/path_testing/share/path_testing/cmake/path_testingConfig-version.cmake
+[1.811s] -- Symlinking: /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/install/path_testing/share/path_testing/package.xml
+[1.833s] Invoked command in '/home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/build/path_testing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/admin/Documents/projects/u-tour/pathing/remote-repos/pathing-testing/rosdev/build/path_testing
