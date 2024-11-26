@@ -92,7 +92,7 @@ def generate_repulsion_field(chunk: np.ndarray, max_allowed_repulse: int, k_star
         (y, x), k = queue.pop(0)
         
         # Stop if repulsion value becomes too low
-        if k > max_allowed_repulse:
+        if k <= 0:
             continue
         
         # Update cell value
@@ -108,7 +108,7 @@ def generate_repulsion_field(chunk: np.ndarray, max_allowed_repulse: int, k_star
                 (ny, nx) not in visited):
                 
                 # Add to queue with reduced repulsion value
-                queue.append(((ny, nx), k + 1))
+                queue.append(((ny, nx), k - 1))
                 visited.add((ny, nx))
     
     return repulsion_map
@@ -275,12 +275,12 @@ def navigate_chunk(
 if __name__ == "__main__":
     # Sample chunk with some obstacles
     chunk = np.array([
-        [0, 0, 0, 0, 1, 1, 0, 0],
-        [0, 1, 1, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 1, 1, 0],
-        [1, 1, 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 1, 1, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 1, 1],
+        [0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 0]
     ])
     
@@ -288,16 +288,19 @@ if __name__ == "__main__":
     robot_size = 0.5  # 50 cm
     prev_waypoint = (0, 0)
     new_waypoint = (6, 7)
-    max_allowed_repulse = 5
-    safe_distance = 3
+    max_allowed_repulse = 3
+    safe_distance = 4
     
     # Navigate chunk
     repulsion_map, path = navigate_chunk(
         chunk, robot_size, prev_waypoint, new_waypoint, 
-        max_allowed_repulse, safe_distance
+        max_allowed_repulse, safe_distance, k_start=5
     )
     
     # Debug print
     print("Repulsion Map:")
     print(repulsion_map)
     print("\nPath:", path)
+    for p in path:
+        repulsion_map[p[0]][p[1]] = -1
+    print(repulsion_map)
